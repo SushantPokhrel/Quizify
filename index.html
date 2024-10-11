@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizify</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <nav>
+          <h2><a href="index.html">Quizify</a></h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <select name="select-el" id="select-el">
+                <option value="sports">Sports</option>
+                <option value="history">History</option>
+                <option value="geography">Geography</option>
+                <option value="moviesMusic">Movies and Music</option>
+                <option value="compScience">CS and IT</option>
+              </select>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="quiz-container">
+        <div class="div-flex">
+          <div class="div-second">
+            <div class="div-question">
+              <h1 class="question"></h1>
+              <ol class="answers-list">
+                <li class="li-ans"></li>
+                <li class="li-ans"></li>
+                <li class="li-ans"></li>
+                <li class="li-ans"></li>
+              </ol>
+            </div>
+          </div>
+          <div class="track-question"></div>
+          <div><a href="index.html">Sushant Pokhrel</a></div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="data.js" defer></script>
+    <script type="module" src="app.js" defer></script>
+  </body>
+</html>
